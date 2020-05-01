@@ -37,6 +37,14 @@ sudo apt install libreoffice
 
 sudo apt-get install thunderbird
 
+# Install Telegram
+
+sudo apt install telegram-desktop
+
+# Install Discord
+
+sudo apt install discord
+
 # Install Google Chrome
 
 sudo apt-get install google-chrome-stable
