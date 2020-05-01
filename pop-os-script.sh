@@ -33,6 +33,10 @@ sudo apt install ubuntu-restricted-extras
 
 sudo apt install libreoffice
 
+# Install Thunderbird
+
+sudo apt-get install thunderbird
+
 # Install Google Chrome
 
 sudo apt-get install google-chrome-stable
