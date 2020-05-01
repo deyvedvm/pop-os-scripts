@@ -89,11 +89,13 @@ sudo apt-get install keepassxc
 # Development
 
 
-# Install Java 8 and 11
+# Install Java 8, 11 and 14
 
 sudo apt-get install openjdk-8-jdk
 
 sudo apt-get install openjdk-11-jdk
+
+sudo apt-get install openjdk-14-jdk
 
 
 # Install Docker  and Docker Compose
