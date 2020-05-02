@@ -1,5 +1,6 @@
-# Download - Try to find PPA in next time
+#!/usr/bin/bash
 
+# Download - Try to find PPA in next time
 
 # Intellij IDEA
 
@@ -71,7 +72,7 @@ sh studio.sh
 
 sudo apt-get install cpu-checker
 
-egrep -c '(vmx|svm)' /proc/cpuinfo
+egrep -c '(vmx|svm)' /proc/cpuinfo # TODO use grep -E
 
 kvm-ok
 # INFO: /dev/kvm exists

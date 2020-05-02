@@ -1,5 +1,6 @@
-# OS: Pop!_OS 20.04
+#!/usr/bin/bash
 
+# OS: Pop!_OS 20.04
 
 # Install Archive Applications
 
@@ -60,6 +61,10 @@ sudo apt-get install spotify-client
 # Install HandBrake
 
 sudo apt-get install handbrake
+
+# Install Shotwell
+
+sudo apt install shotwell
 
 # Install Simple Screen Recorder
 
