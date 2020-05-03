@@ -130,6 +130,21 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 
+# Install Insomnia
+
+# Add to sources
+echo "deb https://dl.bintray.com/getinsomnia/Insomnia /" \
+    | sudo tee -a /etc/apt/sources.list.d/insomnia.list
+
+# Add public key used to verify code signature
+wget --quiet -O - https://insomnia.rest/keys/debian-public.key.asc \
+    | sudo apt-key add -
+
+# Refresh repository sources and install Insomnia
+sudo apt-get update
+sudo apt-get install insomnia
+
+
 ## Adding a new SSH key to your GitHub account
 
 # command line interface to X selections (clipboard)
@@ -144,7 +159,7 @@ sudo apt-get install xclip
 
 # Install Golang Language
 
-
+# TODO
 
 # Games
 

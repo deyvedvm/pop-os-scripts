@@ -92,6 +92,13 @@ sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ia32-li
 # O pacote libvirt-bin não está disponível, mas é referenciado por outro pacote.
 
 
+# Configure the ANDROID_HOME environment variable
+
+#export ANDROID_HOME=$HOME/Android/Sdk
+#export PATH=$PATH:$ANDROID_HOME/emulator
+#export PATH=$PATH:$ANDROID_HOME/tools
+#export PATH=$PATH:$ANDROID_HOME/tools/bin
+#export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 
 ## Install Dropbox
