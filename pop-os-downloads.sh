@@ -2,6 +2,12 @@
 
 # Download - Try to find PPA in next time
 
+
+# Update and Upgrade
+
+sudo apt-get update && sudo apt-get upgrade
+
+
 # Intellij IDEA
 
 tar -xzf ideaIU-2020.1.tar.gz
@@ -102,3 +108,7 @@ sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ia32-li
 
 # Installed by Pop Shop
 
+
+# Install DaVinci Resolve 16.2.1
+
+# Downdload from site: https://www.blackmagicdesign.com/products/davinciresolve/

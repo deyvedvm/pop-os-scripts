@@ -2,6 +2,10 @@
 
 # OS: Pop!_OS 20.04
 
+# Update and Upgrade
+
+sudo apt-get update && sudo apt-get upgrade
+
 # Install Archive Applications
 
 sudo apt-get install unrar zip unzip p7zip-full p7zip-rar rar
@@ -17,6 +21,10 @@ sudo apt install neofetch
 # Command-line JSON processor
 
 sudo apt-get install jq
+
+# Install Vim
+
+sudo apt install vim
 
 # Install Tilix
 
