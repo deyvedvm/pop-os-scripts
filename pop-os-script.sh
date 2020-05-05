@@ -38,6 +38,14 @@ sudo apt-get install tree curl tree apt-transport-https
 
 sudo apt install ubuntu-restricted-extras
 
+# Install FFmpeg
+
+sudo apt install ffmpeg
+
+# Install Open Broadcaster Software - OBS
+
+sudo apt install obs-studio
+
 # Install Libre Office
 
 sudo apt install libreoffice
