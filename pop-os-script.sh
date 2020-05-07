@@ -118,6 +118,28 @@ sudo apt-get install openjdk-11-jdk
 
 sudo apt-get install openjdk-14-jdk
 
+sudo apt-get install default-jdk
+
+# Set default Java version
+
+sudo update-alternatives --config java
+
+
+# Install The SDKMAN! Command Line Interface https://sdkman.io
+
+curl -s "https://get.sdkman.io" | bash
+
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# Install Maven
+
+sdk install maven
+
+# Install Gradle
+
+sdk install gradle
+
+
 
 # Install Docker  and Docker Compose
 
