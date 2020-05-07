@@ -104,7 +104,17 @@ sudo apt-get install figlet
 
 sudo apt-get install keepassxc
 
+# Install And Test Vulkan On Linux
 
+sudo apt install vulkan-utils
+
+# Vulkan Info
+
+vulkaninfo
+
+# Install Transmission
+
+ sudo apt-get install transmission
 
 
 # Development
