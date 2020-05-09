@@ -208,6 +208,10 @@ sudo tar -C /usr/local -xzf go1.14.2.linux-amd64.tar.gz
 source .bashrc
 
 
+# Install Deno - https://deno.land/
+
+curl -fsSL https://deno.land/x/install/install.sh | sh
+
 
 # Games
 
