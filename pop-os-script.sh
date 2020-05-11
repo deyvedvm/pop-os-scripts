@@ -213,6 +213,12 @@ source .bashrc
 curl -fsSL https://deno.land/x/install/install.sh | sh
 
 
+# Install Serverless
+
+curl -o- -L https://slss.io/install | bash
+
+
+
 # Games
 
 # Install Steam
