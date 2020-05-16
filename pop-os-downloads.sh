@@ -118,9 +118,16 @@ sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ia32-li
 
 # Install DaVinci Resolve 16.2.1
 
-# Downdload from site: https://www.blackmagicdesign.com/products/davinciresolve/
+# Downloaded from site: https://www.blackmagicdesign.com/products/davinciresolve/
 
 
 # Install MongoDB Compass
 
-# Downdload from site: https://www.mongodb.com/download-center/compass
+# Downloaded from site: https://www.mongodb.com/download-center/compass
+
+# Install Gitter
+
+# Downloaded from site: https://gitter.im/apps
+
+
+
