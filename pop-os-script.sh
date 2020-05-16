@@ -42,6 +42,10 @@ sudo apt install ubuntu-restricted-extras
 
 sudo apt install ffmpeg
 
+# Install SpeedTest - Check internet speed
+
+sudo apt-get install speedtest-cli
+
 # Install Open Broadcaster Software - OBS
 
 sudo apt install obs-studio
