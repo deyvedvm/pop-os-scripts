@@ -90,6 +90,11 @@ sudo apt install shotwell
 
 sudo apt install simplescreenrecorder
 
+# Install Cheese
+
+sudo apt-get install cheese
+
+
 # Install cMatrix
 
 sudo apt-get install cmatrix
