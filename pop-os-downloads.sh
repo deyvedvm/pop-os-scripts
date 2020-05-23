@@ -133,4 +133,7 @@ sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ia32-li
 
 # Downloaded from site: https://github.com/jgraph/drawio-desktop/releases
 
+# Install Insomnia Designer
+
+# Download from site: https://insomnia.rest/download/#linux
 
