@@ -246,6 +246,13 @@ sudo apt-get install steam
 sudo apt-get install lutris
 
 
+# Install Libratbag - Driver for mouse
+
+sudo apt install ratbagd
+
+# Interface Piper for mouse Logitech
+
+sudo apt install piper
 
 
 
