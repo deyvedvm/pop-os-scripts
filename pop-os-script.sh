@@ -211,6 +211,9 @@ sudo apt-get install xclip
 
 # ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
+# Htop - interactive process viewer
+
+sudo apt install htop
 
 
 # Install Golang Language
