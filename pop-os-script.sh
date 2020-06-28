@@ -42,6 +42,10 @@ sudo apt install ubuntu-restricted-extras
 
 sudo apt install ffmpeg
 
+# Install Winff
+
+sudo apt install winff
+
 # Install SpeedTest - Check internet speed
 
 sudo apt-get install speedtest-cli
