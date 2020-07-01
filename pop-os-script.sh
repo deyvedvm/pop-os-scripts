@@ -54,6 +54,10 @@ sudo apt-get install speedtest-cli
 
 sudo apt install obs-studio
 
+# Install Gimp
+
+sudo apt-get install gimp
+
 # Install Libre Office
 
 sudo apt install libreoffice
