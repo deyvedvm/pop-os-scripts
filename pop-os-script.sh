@@ -182,6 +182,25 @@ docker volume create portainer_data
 
 docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
 
+# Install Minikube
+
+curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && chmod +x minikube
+
+sudo mkdir -p /usr/local/bin/  # if necessary
+
+sudo install minikube /usr/local/bin/
+
+# Check Installation
+minikube start --driver=virtualbox
+
+minikube status
+
+# minikube stop
+
+# minikube start
+
+# minikube delete
+
 
 # Install Visual Studio Code
 
