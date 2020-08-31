@@ -284,6 +284,9 @@ sudo apt install ratbagd
 
 sudo apt install piper
 
+# Install Audacity
+
+sudo apt-get install audacity
 
 
 # 24h clock
