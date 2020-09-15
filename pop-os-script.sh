@@ -288,6 +288,10 @@ sudo apt install piper
 
 sudo apt-get install audacity
 
+# Install Winff
+
+sudo apt-get install winff
+
 
 # 24h clock
 
