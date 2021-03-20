@@ -30,7 +30,7 @@ sudo apt install vim
 
 sudo apt install tilix
 
-# Install curl, vim, tree, apt-transport-https
+# Install curl, tree, apt-transport-https
 
 sudo apt-get install tree curl tree apt-transport-https
 
@@ -84,6 +84,8 @@ sudo apt-get install vlc
 
 # Install Spotify
 
+curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add -
+
 sudo apt-get install spotify-client
 
 # Install HandBrake
@@ -102,16 +104,13 @@ sudo apt install simplescreenrecorder
 
 sudo apt-get install cheese
 
-
 # Install cMatrix
 
 sudo apt-get install cmatrix
 
-
 # Transforming an image into ASCII
 
 sudo apt-get install aview imagemagick # asciiview name-of-photo.png.
-
 
 # Text with style
 
@@ -131,11 +130,9 @@ vulkaninfo
 
 # Install Transmission
 
- sudo apt-get install transmission
-
+sudo apt-get install transmission
 
 # Development
-
 
 # Install Java 8, 11 and 14
 
@@ -151,12 +148,13 @@ sudo apt-get install default-jdk
 
 sudo update-alternatives --config java
 
-
 # Install The SDKMAN! Command Line Interface https://sdkman.io
 
 curl -s "https://get.sdkman.io" | bash
 
 source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+sdk version
 
 # Install Maven
 
@@ -166,7 +164,9 @@ sdk install maven
 
 sdk install gradle
 
+# Install Kotlin
 
+sdk install kotlin
 
 # Install Docker  and Docker Compose
 
@@ -176,6 +176,18 @@ sudo apt install -y docker.io
 
 sudo apt install docker-compose
 
+# Create the docker group.
+
+sudo groupadd docker
+
+# Add your user to the docker group.
+
+sudo usermod -aG docker $USER
+
+# run the following command to activate the changes to groups
+
+newgrp docker
+
 # Install Portainer IO
 
 docker volume create portainer_data
@@ -184,11 +196,13 @@ docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /va
 
 # Install Minikube
 
-curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && chmod +x minikube
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
 
-sudo mkdir -p /usr/local/bin/  # if necessary
+sudo dpkg -i minikube_latest_amd64.deb
 
-sudo install minikube /usr/local/bin/
+# Install VirtualBox
+
+# Download from site ->
 
 # Check Installation
 minikube start --driver=virtualbox
@@ -201,69 +215,58 @@ minikube status
 
 # minikube delete
 
-
 # Install Visual Studio Code
 
 sudo apt-get install code
 
 # Install Node Version Manager - Nvm
 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-
-
-# Install Insomnia
-
-# Add to sources
-echo "deb https://dl.bintray.com/getinsomnia/Insomnia /" \
-    | sudo tee -a /etc/apt/sources.list.d/insomnia.list
-
-# Add public key used to verify code signature
-wget --quiet -O - https://insomnia.rest/keys/debian-public.key.asc \
-    | sudo apt-key add -
-
-# Refresh repository sources and install Insomnia
-sudo apt-get update
-sudo apt-get install insomnia
-
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 
 ## Adding a new SSH key to your GitHub account
-
-# command line interface to X selections (clipboard)
-
-sudo apt-get install xclip
 
 # Generating a new SSH key
 
 # ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
+# eval "$(ssh-agent -s)"
+
+# ssh-add ~/.ssh/id_ed25519
+
+# command line interface to X selections (clipboard)
+
+sudo apt-get install xclip
+
+# xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+
+# xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+
+
+
 # Htop - interactive process viewer
 
 sudo apt install htop
-
 
 # Install Golang Language
 
 # Download from  https://golang.org/dl/
 
-sudo tar -C /usr/local -xzf go1.14.2.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.16.2.linux-amd64.tar.gz
 
 # export PATH=$PATH:/usr/local/go/bin
 
 source .bashrc
 
-
-# Install Deno - https://deno.land/
-
-curl -fsSL https://deno.land/x/install/install.sh | sh
+go version
 
 
 # Install Serverless
 
 curl -o- -L https://slss.io/install | bash
 
-
+sls --version
 
 # Games
 
@@ -274,7 +277,6 @@ sudo apt-get install steam
 # Install Lutris
 
 sudo apt-get install lutris
-
 
 # Install Libratbag - Driver for mouse
 
@@ -292,12 +294,9 @@ sudo apt-get install audacity
 
 sudo apt-get install winff
 
-
 # 24h clock
 
 gsettings set org.gnome.desktop.interface clock-format 24h
-
-
 
 # Remove trash
 
