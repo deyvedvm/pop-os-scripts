@@ -10,22 +10,22 @@ sudo apt-get update && sudo apt-get upgrade
 
 # Intellij IDEA
 
-tar -xzf ideaIU-2020.1.tar.gz
+tar -xzf ideaIU-2020.3.2.tar.gz
 
-sudo mv idea-IU-201.6668.121/ /opt/
+sudo mv idea-IU-203.7148.57/ /opt/
 
-cd /opt/idea-IU-201.6668.121/bin/ || exit
+cd /opt/idea-IU-203.7148.57/bin/ || exit
 
 sh idea.sh
 
 
 # WebStorm
 
-tar -xzf WebStorm-2020.1.tar.gz
+tar -xzf WebStorm-2020.3.2.tar.gz
 
-sudo mv WebStorm-201.6668.106/ /opt/
+sudo mv WebStorm-203.7148.54/ /opt/
 
-cd /opt/WebStorm-201.6668.106/bin/ || exit
+cd /opt/WebStorm-203.7148.54/bin/ || exit
 
 sh webstorm.sh
 
@@ -43,11 +43,11 @@ sh pycharm.sh
 
 # Goland
 
-tar -xzf goland-2020.1.1.tar.gz
+tar -xzf goland-2020.3.3.tar.gz
 
-sudo mv GoLand-2020.1.1/ /opt/
+sudo mv GoLand-2020.3.3/ /opt/
 
-cd /opt/GoLand-2020.1.1/bin/ || exit
+cd /opt/GoLand-2020.3.3/bin/ || exit
 
 sh goland.sh
 
@@ -116,7 +116,7 @@ sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ia32-li
 # Installed by Pop Shop
 
 
-# Install DaVinci Resolve 16.2.1
+# Install DaVinci Resolve 17.0
 
 # Downloaded from site: https://www.blackmagicdesign.com/products/davinciresolve/
 
@@ -133,12 +133,17 @@ sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ia32-li
 
 # Downloaded from site: https://github.com/jgraph/drawio-desktop/releases
 
-# Install Insomnia Designer
-
-# Download from site: https://insomnia.rest/download/#linux
 
 # Install VirtualBox
 
 # Download from site: https://www.virtualbox.org/wiki/Linux_Downloads
 
 
+# Install Skype
+
+# Download from site: https://www.skype.com/pt-br/get-skype/download-skype-for-desktop/
+
+
+# Install Insomnia
+
+# Download from site: https://insomnia.rest/download
