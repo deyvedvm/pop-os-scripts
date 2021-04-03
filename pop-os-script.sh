@@ -215,6 +215,36 @@ minikube status
 
 # minikube delete
 
+
+## Install kubectl
+
+# Download the latest release with the command:
+
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+
+# Install kubectlInstall kubectl
+
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+
+# Test to ensure the version you installed is up-to-date:
+
+kubectl version --client
+
+
+
+## Install kompose
+
+# Linux
+curl -L https://github.com/kubernetes/kompose/releases/download/v1.22.0/kompose-linux-amd64 -o kompose
+
+chmod +x kompose
+
+sudo mv ./kompose /usr/local/bin/kompose
+
+kompose version
+
+
+
 # Install Visual Studio Code
 
 sudo apt-get install code
