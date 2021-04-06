@@ -324,6 +324,12 @@ sudo apt-get install audacity
 
 sudo apt-get install winff
 
+
+# Install Stacer - Monitor Tool
+
+sudo apt-get install stacer
+
+
 # 24h clock
 
 gsettings set org.gnome.desktop.interface clock-format 24h
