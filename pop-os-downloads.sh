@@ -54,11 +54,11 @@ sh goland.sh
 
 # DataGrip
 
-tar -xzf datagrip-2020.1.2.tar.gz
+tar -xzf datagrip-2021.1.tar.gz
 
-sudo mv DataGrip-2020.1.2/ /opt/
+sudo mv DataGrip-2021.1/ /opt/
 
-cd /opt/DataGrip-2020.1.2/bin/ || exit
+cd /opt/DataGrip-2021.1/bin/ || exit
 
 sh datagrip.sh
 
