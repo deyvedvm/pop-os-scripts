@@ -330,6 +330,10 @@ sudo apt-get install winff
 sudo apt-get install stacer
 
 
+# Install Elixir
+
+sudo apt-get install elixir
+
 # 24h clock
 
 gsettings set org.gnome.desktop.interface clock-format 24h
