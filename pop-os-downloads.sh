@@ -147,3 +147,8 @@ sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ia32-li
 # Install Insomnia
 
 # Download from site: https://insomnia.rest/download
+
+
+# Install MongoDB Compass
+
+# Download from site: https://www.mongodb.com/try/download/compass
