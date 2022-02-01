@@ -140,7 +140,7 @@ sudo apt-get install openjdk-8-jdk
 
 sudo apt-get install openjdk-11-jdk
 
-sudo apt-get install openjdk-14-jdk
+sudo apt-get install openjdk-17-jdk
 
 sudo apt-get install default-jdk
 
@@ -283,7 +283,7 @@ sudo apt install htop
 
 # Download from  https://golang.org/dl/
 
-sudo tar -C /usr/local -xzf go1.16.2.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.17.6.linux-amd64.tar.gz
 
 # export PATH=$PATH:/usr/local/go/bin
 
