@@ -132,17 +132,24 @@ vulkaninfo
 
 sudo apt-get install transmission
 
+
 # Development
 
-# Install Java 8, 11 and 14
-
-sudo apt-get install openjdk-8-jdk
+# Install Java 11, 17 and 18
 
 sudo apt-get install openjdk-11-jdk
 
 sudo apt-get install openjdk-17-jdk
 
+sudo apt-get install openjdk-18-jdk
+
 sudo apt-get install default-jdk
+
+
+# List Java Versions
+
+update-java-alternatives --list
+
 
 # Set default Java version
 
