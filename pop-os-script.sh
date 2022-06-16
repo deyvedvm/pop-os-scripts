@@ -262,7 +262,10 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 
+
 ## Adding a new SSH key to your GitHub account
+
+## https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 # Generating a new SSH key
 
@@ -273,6 +276,20 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 # ssh-add ~/.ssh/id_ed25519
 
 # command line interface to X selections (clipboard)
+
+
+## Adding a new SSH key to your Bitbucket account
+
+## https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/#Set-up-SSH-on-macOS-Linux
+
+# ssh-keygen
+
+# eval `ssh-agent`
+
+# ssh-add ~/.ssh/bitbucket
+
+# cat ~/.ssh/id_rsa.pub
+
 
 sudo apt-get install xclip
 
